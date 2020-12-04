@@ -1,0 +1,182 @@
+/* div.left{
+    background-color: rgb(232, 206, 240, .4);
+ }
+ 
+ div.middle{
+    background-color: rgba(229, 240, 227, 0.4);
+ }
+ 
+ div.right{
+  background-color: rgba(238, 164, 135, 0.4);
+ /* } */ 
+
+
+ /* images of flavors size */
+
+ img{
+     width: 100%;
+    height: 600px;
+ }
+ /* bkg img */
+ body {
+ 
+     background-image: url('image/\ Harvest.jpeg');
+     background-size: cover;                      /* <------ */
+     background-repeat: no-repeat; 
+     background-position: fixed center; 
+ }
+ 
+ 
+ div.flavorList{
+    font-family: 'Satisfy', cursive;
+    color: rgb(245, 76, 33);
+    font-size: 30px;
+ }
+ 
+ div#reviews{
+  font-family: 'Satisfy', cursive;
+  color: rgb(41, 27, 233);
+  font-size: 30px;
+ }
+ 
+ 
+ button#purchaseButton.btn.btn-secondary{
+     color:rgb(0, 255, 21); 
+     font-family: 'Pacifico', cursive;
+     background-color: rgb(255, 80, 162);
+     margin-left: 20px;
+ }
+ 
+ label#toppings{
+     margin-right: 4px;
+ }
+ 
+ 
+ select.toppings{
+     font-weight: bold;
+ }
+ 
+ div.menuNarBar{
+     font-family: 'Satisfy', cursive;
+     font-size: 22px;
+     color: rgb(255, 0, 255);
+     margin-left: 100px;
+     padding: 10px 10px;
+ }
+ /* dropdown font */
+ select#milkDropDown{
+     font-family:'Satisfy', cursive; 
+     background-color: rgb(215, 228, 33);
+     font-size: 20;
+ }
+ 
+ 
+ select#scoopDropDown{
+     font-family:'Satisfy', cursive; 
+     background-color: rgb(215, 228, 33);
+     font-size: 20;
+ }
+ 
+ select#toppingDropDown{
+     font-family:'Satisfy', cursive; 
+     background-color: rgb(215, 228, 33);
+     font-size: 20;
+ }
+ 
+ 
+ /* after selection output */
+ p#selectedMilk{
+     font-family: 'Satisfy';
+     color: rgb(71, 216, 78);
+     font-size: 24;
+ }
+ 
+ p#selectedTopping{
+     font-family: 'Satisfy', cursive;
+     color: rgb(76, 20, 207);
+     font-size: 20;
+ }
+ 
+ p#selectedScoop{
+     font-family: 'Satisfy', cursive;
+     color: rgb(228, 72, 15);
+     font-size: 20;
+ 
+ }
+ 
+ 
+ /* review textfont */
+ div.reviews{
+     font-family:'Satisfy', cursive; 
+ }
+ 
+ ul#reviewsUl{
+    font-family:'Satisfy', cursive;
+ }
+ 
+ header.menubar{
+     font-family: 'Pacifico', cursive;
+     text-shadow: 0 0 3px #d0ff00, 0 5px 5px #eeff00;
+     text-align: center;
+     color: rgb(255, 40, 112);
+     font-size: 100px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+ 
+ }
+ 
+ header.menubar h1{
+     font-size: 1.3em;
+ }
+ 
+ h1#thankyou {
+     background-color: rgba(128, 231, 238, 0.4);
+     text-align: center;
+     font-family: 'Pacifico', cursive;
+     color: rgb(255, 40, 112);
+     text-shadow: 0 0 3px #d0ff00, 0 5px 5px #eeff00;
+ }
+ 
+ button#submitReviewButton{
+     color: rgb(0, 255, 21);
+     font-family: 'Pacifico', cursive;
+     background-color: rgb(255, 80, 162);
+     margin-left: 20px;
+ }
+ 
+ ul#reviewUL button{
+     display: block;
+     color: rgb(0, 255, 21);
+     font-family: 'Pacifico', cursive;
+     background-color: rgb(255, 80, 162);
+     margin-left: 20px;
+     font-size: .5em
+ }
+ 
+ ul#reviewUL li{
+     margin: 10px;
+     list-style-type: none;
+     padding: 10px;
+     display: block;
+     overflow-wrap: break-word;
+ }
+ 
+ label#reviewHeader{
+     font-family: 'Pacifico', cursive;
+     color: rgb(41, 27, 233);
+     font-size: 30px;
+ }
+
+ div#displayPrice h2{
+     font-family: 'Pacifico';
+     color: red;
+     font-size: 20px;
+     font-weight: 24px;
+ }
+ 
+ /* textarea{
+     font-size: 2px;
+     font-family: 'Satisfy';
+     color: rgb(236, 207, 89);
+     font-family: 'Satisfy', cursive;
+ /* } */ 

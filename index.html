@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  type = "text/css" href="index.css">
+    <script defer type="text/javascript" src="index.js" > </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap" rel="stylesheet"> 
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <header class="menubar">
+
+     <h1>Ice Cream Bar</h1>
+
+        <div>
+          <!--login box-->
+          <!-- <h2>Login</h2> -->
+        </div>
+
+    </header>
+    
+    <div class="main-body">
+
+      <div class="menuNarBar">
+
+        <!-- <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Toppings:
+          </button>
+          <div class="dropdown-menu" id="topDDButton" aria-labelledby="dropdownMenuButton"> </div>
+        </div> -->
+
+
+        <!-- <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Toppings:
+          </button>
+          <div class="dropdown-menu" id="topDDButton" aria-labelledby="dropdownMenuButton"> </div>
+        </div> -->
+
+
+        <label for="toppings">Toppings:</label>
+        <select id="toppingDropDown">
+          <option value="">Select One Topping</option>
+        </select>
+
+        <label for="milks">Milks:</label>
+        <select id="milkDropDown">
+          <option value="">Select One Base</option>
+        </select>
+
+        <label for="scoops">Scoops:</label>
+        <select id="scoopDropDown">
+          <option value="">Select A Number of Scoops</option>
+
+        </select>
+
+
+        <!-- <button id="addButton" type="button" class="btn btn-secondary">
+          See Current Total
+        </button> -->
+
+        <button type="submit" id="purchaseButton" type="button" class="btn btn-secondary">Purchase Now</button>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+
+            <!-- left -->
+            <div class="col-3 left" >
+              <div class="flavorList">
+
+                <!-- added h4 for the list of flavor -->
+                <h4>List of Flavor</h4>
+              </div>
+            </div>
+
+            <!-- middle -->
+            <div class="col-5 middle" >
+              <!-- Current Display -->
+              <div class="imageDisplay"></div>
+                <div class="selected_options">
+                  <!-- current topping, milk, scoop -->
+                  <p id="selectedTopping"> </p>
+                  <p id="selectedMilk"> </p>
+                  <p id="selectedScoop"> </p>
+                  <p id="totalPrice"> </p>
+                </div>
+                
+
+
+                <div id="displayPrice">  </div>
+            </div>
+
+
+            <!-- right -->
+            <div class="col-4 right" >
+              <!--review form-->
+              <div id="form-review" class="form-group"> </div> 
+
+              <!--listing of reviews-->
+              <div id="reviews">
+                Reviews
+                <ul id="reviewUL"> </ul>
+              </div>
+
+            </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+</body>
+</html>
