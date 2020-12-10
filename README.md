@@ -1,10 +1,9 @@
 # Mod3_Project_frontend
 Ice Cream Bar 
 
-User can select fom a list of unique ice cream flavors 
-A user can select from a drop down menu some unusual and basic toppings for their ice cream 
-A user can select from a drop down menu a list of milk base based on dietary preferences from whole milf to plant based 
-A user has the option of choosing from 1-3 scoops of ice cream 
-A user can give a review delete and create a new review
-A user can give a like using a heart emoji
-when the user is finshed you can submit your order and get a over view of that order that was placed  with a total purchase price . 
+Ice Cream bar was created to give a new experince to how we think about ice cream , the kind of flavors we would all like from our favorate childhood candies or  a unique flavor experiance, like churros and chocolate , sounds yummy yes. 
+ Everyone loves ice cream and I wanted to think about flavors and topping in a new way , so I thought about what I would love to have in a flavor and toppings , I hope you will enjoy your experiance and come away with how you may think of ice cream and what you would like to eat . 
+this is Ice cream bar .
+
+
+hortencia cisneros 
